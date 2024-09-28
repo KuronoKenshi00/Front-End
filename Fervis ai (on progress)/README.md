@@ -1,5 +1,9 @@
 # Fervis ai Front End (on progress) using react
 
+![Alt text](./Output/Output1.png)
+
+![Alt text](./Output/Output2.png)
+
 Built using:
 
 - Front-end library: React
