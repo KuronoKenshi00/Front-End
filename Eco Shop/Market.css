@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000002;
+    color: #fff;
+}
+
+.services-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.services-header {
+    margin-bottom: 40px;
+}
+
+.services-tag {
+    color: #1abc9c;
+    font-size: 1.2em;
+}
+
+.services-title {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.services-description {
+    font-size: 1.1em;
+    color: #ccc;
+}
+
+.services-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    height: 400px;  
+    background-color:  #1abc9c;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.service-card::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 250px;
+    background: rgba(64, 64, 64, 0.1);
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    backdrop-filter: blur(1px);
+    z-index: 1;
+}
+
+.service-card:hover {
+    background-color: #081018;
+}
+
+.service-icon {
+    width: 10px;
+    position: absolute;
+    margin-top: 80%;
+    margin-bottom: 10px;
+    z-index: 2;
+}
+
+.service-title {
+    font-family: "Josefin Sans", sans-serif;
+    margin-left: 8%;
+    position: absolute;
+    margin-top: 60%;
+    font-size: 1.5em;
+    z-index: 2;
+}
+
+.service-image {
+    position: relative;
+    margin-right: 100%;
+    margin-top: 10px;
+    z-index: 2;
+}
+
+.service-arrow1 {
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 225px;
+    border: 3px;
+    background: #000002;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 2;
+    transition: transform 0.2s ease;
+}
+
+.service-arrow2 {
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 225px;
+    border: 3px;
+    background: #000002;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 2;
+    transition: transform 0.2s ease;
+}
+
+.service-arrow1:hover {
+    transform: scale(1.2);
+}
+
+.service-arrow2:hover {
+    transform: scale(1.2);
+}

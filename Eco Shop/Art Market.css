@@ -1,0 +1,157 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000002;
+}
+
+/* Header Styles */
+header {
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #081018;
+    color: #1abc9c;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .search-bar input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+header .search-bar button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #1abc9c;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+header nav a {
+    margin-left: 20px;
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+    color: white;
+    padding: 20px;
+    flex: 1;
+}
+
+/* Carousel Styles */
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    height: 250px;
+    min-width: 100%;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+/* Product Listings Styles */
+.product-listings {
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.product-item {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #081018;
+}
+
+.product-item img {
+    width: 100%;
+    height: 80px;
+    max-height: 150px;
+    object-fit: contain;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 5%;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #081018;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-links a, footer .social-media a {
+    margin: 0 10px;
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+footer .footer-links a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .newsletter input {
+    margin-top: 1%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+footer .newsletter button {
+    margin-top: 1%;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #1abc9c;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.social-media img{
+    margin-top: 1%;
+    height: 25px;
+}
