@@ -2,6 +2,10 @@
 
 Welcome to the **Eco Shop** project! This initiative aims to create an on-campus platform where students can sell their e-waste and exchange it for vouchers that can be used for various courses. Our goal is to promote sustainability and provide students with a means to declutter responsibly while gaining valuable learning opportunities.
 
+![Alt text](./Output/Output1.png)
+
+![Alt text](./Output/Output2.png)
+
 ## Features
 
 - **E-Waste Marketplace**: A user-friendly interface for students to list and sell their electronic waste.
