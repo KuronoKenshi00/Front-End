@@ -1,0 +1,93 @@
+html,body{
+    margin-left: auto;
+    margin-top: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.full{
+    background: linear-gradient(179.7deg, rgb(197, 214, 227) 2.9%, rgb(144, 175, 202) 97.1%);
+    height: 100%;
+}
+.header {
+    display: flex;
+    align-items: center; 
+}
+
+.header h2, .header p {
+    background: linear-gradient(112.6deg, rgb(56, 24, 40) -10.7%, rgb(23, 148, 185) 100.2%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+    margin: 5%; 
+    margin-top: 2%;
+    font-family: "Poppins", sans-serif;
+}
+
+.header h2{
+    margin-left: 2%;
+    color: black;
+}
+
+.body{
+    font-family: "Poppins", sans-serif;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.body h1{
+    font-size: 40px;
+    background: linear-gradient(112.6deg, rgb(56, 24, 40) -10.7%, rgb(23, 148, 185) 100.2%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+    margin: 0;
+}
+.body p{
+    color:black ;
+}
+
+.bottom{
+    margin-top: 30%;
+    margin-left: 3%;
+}
+    
+.container {
+    display: flex;
+}
+
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(circle at 10% 20%, rgb(239, 246, 249) 0%, rgb(206, 239, 253) 90%);
+    clip-path: circle(600px at right 800px);    
+}
+
+.image {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 7.3%;
+    z-index: 1;
+    filter: blur(0.1px);
+}
+
+.custom-button {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(112.6deg, rgb(56, 24, 40) -10.7%, rgb(23, 148, 185) 100.2%);    
+    color: black;
+    text-align: center;
+    padding: 3px 8px; 
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 20%;
+    margin-top: 3%;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.5); 
+    box-shadow: 3px 3px 6px black ; 
+}
