@@ -33,10 +33,6 @@ To run this project locally, follow these steps:
 
 We welcome contributions to enhance the Eco Shop! If you have suggestions or want to report issues, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - Thanks to all contributors and supporters who have made this project possible!
