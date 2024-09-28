@@ -1,6 +1,6 @@
 # Fervis ai Front End (on progress) using react
 
-![Alt text](./Output/Output1.png)
+![Alt text](./Output/Screenshot 2024-09-28 114929.png)
 
 ![Alt text](./Output/Output2.png)
 
